@@ -1,0 +1,28 @@
+Benchmark results of GensonBenchmark class
+based on big objects (large numbers, quite big lists, but no long string)
+
+ ======= Serialization Bench ======
+Genson global serialization time=24.908 s
+Genson avg serialization time=0.49816 ms
+
+Jackson global serialization time=21.549 s
+Jackson avg serialization time=0.43098 ms
+
+Gson global serialization time=39.688 s
+Gson avg serialization time=0.79376 ms
+
+ ======= Deserialization Bench ======
+ Genson fast approximated double parse global deserialization time=17.841 s
+ Genson fast approximated double parse avg deserialization time=0.35682 ms
+
+ Genson strict double parse global deserialization time=34.893 s
+ Genson strict double parse avg deserialization time=0.69786 ms
+
+ Jackson global deserialization time=32.868 s
+ Jackson avg deserialization time=0.65736 ms
+
+ Gson global deserialization time=36.555 s
+ Gson avg deserialization time=0.7311 ms
+
+ =================================
+
