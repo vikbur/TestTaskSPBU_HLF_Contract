@@ -1,1 +1,1 @@
-Файл контранта в папке fabric-chaincode-shim/src/main/java/vikbur/
+Файл контракта в папке fabric-chaincode-shim/src/main/java/vikbur/
